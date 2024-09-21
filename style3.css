@@ -1,0 +1,114 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+   
+}
+.container{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    padding: 15px 0;
+    background-color: rgb(158, 219, 130);
+    
+}
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    
+}
+.nav-list a {
+    font-family: "Rubik Iso", system-ui;
+    text-decoration: none;
+    color: rgb(105, 23, 138);
+    font-size: 18px;
+    line-height: 1.5;
+    transition: color 0.5s ease-in-out;
+}
+.nav-list a:hover{
+
+    color: rgb(255, 226, 232);
+    transition: color 0.5s ease-in-out;
+}
+.section-1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(https://assets.bonappetit.com/photos/57ace09bf1c801a1038bc874/master/pass/matcha-doughnuts.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+
+   
+}
+.heading-1{
+    font-family: "Fascinate Inline", system-ui;
+    font-size: 50px;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(105, 23, 138) ;
+   scroll-behavior: auto;
+}
+.paragraph-1{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(105, 23, 138) ;
+
+}
+.section-2{
+
+    padding: 70px 0;
+}
+.heading-2{
+
+    font-family: "Rubik Glitch", system-ui;
+    font-size: 50px;
+    line-height: 1.5;
+    text-align: center;
+    
+    
+}
+.benefits p{
+    font-family: "Pacifico", cursive;
+}
+.benefits h3 {
+    font-family: "Fascinate Inline", system-ui;
+    font-size: 35px;
+    line-height: 1.5;
+    text-align: center;
+}
+.benefits-vriper{
+    display: flex;
+    gap :15px;
+   
+}
+@media screen and (max-width:430px) {
+    .benefits-vriper{
+        flex-direction: column;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    
+}
+html{
+    scroll-behavior: smooth;
+}
